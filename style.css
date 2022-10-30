@@ -47,16 +47,10 @@ nav ul li:hover {
 }
 .page-content .presentation-image{
     margin-top: 5% ;
-}
-.page-content.presentation-image img {
     max-width: 100%;
     height: auto;
-    transition: filter 0.5s;
+   margin: 10px;
 }
-.page-content.presentation-image img:hover {
-    filter: brightness(50%);
-}
-
 .profile img{
     width: 40px;
     height: 40px;
