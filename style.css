@@ -20,3 +20,19 @@ nav.profile{
     display: flex;
     align-items:center ;
 }
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    float:left;
+}
+
+.profile h1{
+    margin-top: 2px ;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
