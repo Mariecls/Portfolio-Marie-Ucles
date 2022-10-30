@@ -94,7 +94,30 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     height: 2px;
     background-color: #000;
     } 
+#competences {
+    color: #6495ed; 
+    font-size: 20px;
+    animation-duration: 5s;
+    animation-name: slidein;
+}
 
+.competences {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
 
 @media screen and (max-width: 700px) {
     nav {
