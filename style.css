@@ -45,12 +45,17 @@ nav ul li:hover {
     font-family: 'Oswald',sans-serif;
     font-size: 80px;
 }
-.page-content .presentation-image{
+.presentation-image{
     margin-top: 5% ;
     max-width: 100%;
     height: auto;
    margin: 10px;
-}
+   }
+
+   .presentation-image img {
+border : 10px solid rgba(111, 180, 37, 0.923);
+   }
+
 
 .profile img{
     width: 40px;
@@ -58,6 +63,7 @@ nav ul li:hover {
     border-radius: 50%;
     display: block;
     float:left;
+    
 }
 .title-presentation h2{
     color: #ff000a;
