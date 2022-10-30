@@ -71,6 +71,7 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     font-size: 50px;
     margin: 0px;
     padding: 0;
+    text-shadow: 18px 16px 17px rgb(206, 34, 151);
 }
 .title-presentation p {
     max-width: 100%;
@@ -86,6 +87,14 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     margin-right: 10px ;
     
 }
+#bande_horizontale{
+    padding: 0px;
+    margin: 0px;
+    width: 16%;
+    height: 2px;
+    background-color: #000;
+    } 
+
 
 @media screen and (max-width: 700px) {
     nav {
