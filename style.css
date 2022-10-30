@@ -32,6 +32,17 @@ nav ul li {
 nav ul li:hover {
     border-bottom-color :#000 ;
 }
+.page-content{
+    margin: 4%;
+}
+.page-content header {
+   margin-top: 5%; 
+   max-width: 80%;
+}
+.page-content header h1{
+    margin: 0;
+    text-transform: uppercase;
+}
 
 .profile img{
     width: 40px;
