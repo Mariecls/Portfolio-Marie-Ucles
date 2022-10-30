@@ -87,6 +87,13 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     margin-right: 10px ;
     
 }
+#horizontale2{
+    padding: 0px;
+    margin: 0px;
+    width: 32%;
+    height: 2px;
+    background-color: #000;
+    } 
 #bande_horizontale{
     padding: 0px;
     margin: 0px;
@@ -94,6 +101,7 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     height: 2px;
     background-color: #000;
     } 
+
 #competences {
     color: #6495ed; 
     font-size: 20px;
@@ -130,4 +138,10 @@ border : 10px solid rgba(111, 180, 37, 0.923);
         margin-top: 10%;
         max-width: 100%;
     }
+}
+footer {
+    margin-top: 10px;
+}
+footer p {
+    font-size : 15px; 
 }
