@@ -42,6 +42,19 @@ nav ul li:hover {
 .page-content header h1{
     margin: 0;
     text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    font-size: 6vw;
+}
+.page-content .presentation-image{
+    margin-top: 5% ;
+}
+.page-content.presentation-image img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.5s;
+}
+.page-content.presentation-image img:hover {
+    filter: brightness(50%);
 }
 
 .profile img{
@@ -66,5 +79,9 @@ nav ul li:hover {
     }
     nav ul {
             display: none;
+    }
+    .page-content header {
+        margin-top: 10%;
+        max-width: 100%;
     }
 }
