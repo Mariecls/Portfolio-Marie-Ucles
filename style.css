@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Oswald:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 body{font-family: 'Noto Sans', sans-serif;
 padding : 0 2%;
 margin: 0; 
@@ -33,17 +32,18 @@ nav ul li:hover {
     border-bottom-color :#000 ;
 }
 .page-content{
-    margin: 4%;
+    margin: 8px;
 }
 .page-content header {
-   margin-top: 5%; 
+   margin-top: 2%; 
    max-width: 80%;
+ 
 }
 .page-content header h1{
     margin: 0;
     text-transform: uppercase;
     font-family: 'Oswald',sans-serif;
-    font-size: 6vw;
+    font-size: 80px;
 }
 .page-content .presentation-image{
     margin-top: 5% ;
@@ -51,12 +51,26 @@ nav ul li:hover {
     height: auto;
    margin: 10px;
 }
+
 .profile img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     display: block;
     float:left;
+}
+.title-presentation h2{
+    color: #ff000a;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0;
+}
+.title-presentation p {
+    max-width: 100%;
+    font-size: 18px;
+    margin-top: 2px;
+    padding: 0;
 }
 
 .profile h1{
