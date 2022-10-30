@@ -2,5 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Oswald:wght@300&display=swap');
 
 body{font-family: 'Noto Sans', sans-serif;
+padding : 0 2%;
+margin: 0; 
+}
 
+nav{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color:white ;
+}
+nav.profile{
+    display: flex;
+    align-items:center ;
 }
