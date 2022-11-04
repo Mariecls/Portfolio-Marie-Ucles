@@ -87,6 +87,27 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     margin-right: 10px ;
     
 }
+#bande3{
+    padding: 0px;
+    margin: 0px;
+    width: 56%;
+    height: 2px;
+    background-color: #000;
+    } 
+ #bande4{
+        padding: 0px;
+        margin: 0px;
+        width: 51%;
+        height: 2px;
+        background-color: #000;
+        } 
+ #bande5{
+            padding: 0px;
+            margin: 0px;
+            width: 54%;
+            height: 2px;
+            background-color: #000;
+            } 
 #horizontale2{
     padding: 0px;
     margin: 0px;
@@ -94,6 +115,7 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     height: 2px;
     background-color: #000;
     } 
+
 #bande_horizontale{
     padding: 0px;
     margin: 0px;
@@ -101,6 +123,7 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     height: 2px;
     background-color: #000;
     } 
+   
 
 #competences {
     color: #6495ed; 
@@ -113,6 +136,21 @@ border : 10px solid rgba(111, 180, 37, 0.923);
     animation-duration: 3s;
     animation-name: slidein;
   }
+  .formation-title h1{
+    color: #ff000a;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 80px;
+    margin: 0px;
+    padding: 0;
+    text-shadow: 18px 16px 17px rgb(206, 34, 151);
+  }
+  .formation-content{
+    max-width: 100%;
+    font-size: 18px;
+    margin-top: 2px;
+    padding: 0;
+  }
+  
   
   @keyframes slidein {
     from {
