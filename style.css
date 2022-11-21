@@ -15,7 +15,7 @@ nav{
     top:0;
     background-color:white ;
 }
-nav.profile{
+.profile{
     display: flex;
     align-items:center ;
 }
